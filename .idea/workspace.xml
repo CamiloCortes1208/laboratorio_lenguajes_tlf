@@ -4,16 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89c0dff0-c05a-4368-82c5-c7cd0740eda5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/laboratorio_lenguajes_tlf.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interfaz.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ParteA.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ParteB.py" afterDir="false" />
+    <list default="true" id="89c0dff0-c05a-4368-82c5-c7cd0740eda5" name="Changes" comment="Creación del repositorio">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interfaz.py" beforeDir="false" afterPath="$PROJECT_DIR$/Interfaz.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ParteA.py" beforeDir="false" afterPath="$PROJECT_DIR$/ParteA.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ParteB.py" beforeDir="false" afterPath="$PROJECT_DIR$/ParteB.py" afterDir="false" />
+    </list>
+    <list id="6b864291-31f6-4856-99bf-e2f009e90fbb" name="Changes by sebastianjaramillocardona" comment="">
+      <change beforePath="$PROJECT_DIR$/ParteB.py" beforeDir="false" afterPath="$PROJECT_DIR$/ParteB.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,12 +28,40 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/CamiloCortes1208/laboratorio_lenguajes_tlf.git",
-    "accountId": "0aeff190-68b1-485c-aa41-0420030c5bfd"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;CamiloCortes1208&quot;
   }
-}]]></component>
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/CamiloCortes1208/laboratorio_lenguajes_tlf.git&quot;,
+    &quot;accountId&quot;: &quot;0aeff190-68b1-485c-aa41-0420030c5bfd&quot;
+  }
+}</component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/ParteB.py">
+      <ranges>
+        <range start1="10" end1="21" start2="10" end2="10" changelist="89c0dff0-c05a-4368-82c5-c7cd0740eda5" />
+        <range start1="70" end1="71" start2="59" end2="60" changelist="6b864291-31f6-4856-99bf-e2f009e90fbb" />
+        <range start1="73" end1="75" start2="62" end2="65" changelist="89c0dff0-c05a-4368-82c5-c7cd0740eda5" />
+        <range start1="89" end1="90" start2="79" end2="79" changelist="6b864291-31f6-4856-99bf-e2f009e90fbb" />
+        <range start1="92" end1="94" start2="81" end2="81" changelist="89c0dff0-c05a-4368-82c5-c7cd0740eda5" />
+        <range start1="102" end1="103" start2="89" end2="90" changelist="89c0dff0-c05a-4368-82c5-c7cd0740eda5" />
+        <range start1="117" end1="118" start2="104" end2="105" changelist="89c0dff0-c05a-4368-82c5-c7cd0740eda5" />
+        <range start1="119" end1="120" start2="106" end2="106" changelist="6b864291-31f6-4856-99bf-e2f009e90fbb" />
+        <range start1="122" end1="124" start2="108" end2="117" changelist="89c0dff0-c05a-4368-82c5-c7cd0740eda5" />
+        <range start1="125" end1="125" start2="118" end2="119" changelist="89c0dff0-c05a-4368-82c5-c7cd0740eda5" />
+        <range start1="126" end1="131" start2="120" end2="125" changelist="89c0dff0-c05a-4368-82c5-c7cd0740eda5" />
+        <range start1="133" end1="135" start2="127" end2="131" changelist="89c0dff0-c05a-4368-82c5-c7cd0740eda5" />
+        <range start1="136" end1="138" start2="132" end2="151" changelist="89c0dff0-c05a-4368-82c5-c7cd0740eda5" />
+        <range start1="141" end1="141" start2="154" end2="155" changelist="89c0dff0-c05a-4368-82c5-c7cd0740eda5" />
+        <range start1="143" end1="144" start2="157" end2="158" changelist="6b864291-31f6-4856-99bf-e2f009e90fbb" />
+        <range start1="145" end1="146" start2="159" end2="162" changelist="89c0dff0-c05a-4368-82c5-c7cd0740eda5" />
+      </ranges>
+    </file>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -48,6 +74,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.Interfaz.executor": "Run",
+    "Python.ParteA.executor": "Run",
     "Python.ParteB.executor": "Run",
     "Python.pruebas_interfaz.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -83,16 +110,31 @@
       <option name="presentableId" value="Default" />
       <updated>1727222718253</updated>
       <workItem from="1727222720390" duration="3881000" />
-      <workItem from="1727277708082" duration="6910000" />
+      <workItem from="1727277708082" duration="7115000" />
+      <workItem from="1727303188756" duration="11892000" />
     </task>
+    <task id="LOCAL-00001" summary="Creación del repositorio">
+      <option name="closed" value="true" />
+      <created>1727285784525</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1727285784525</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Creación del repositorio" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creación del repositorio" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/laboratorio_lenguajes_tlf$pruebas_interfaz.coverage" NAME="pruebas_interfaz Coverage Results" MODIFIED="1727282475543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/laboratorio_lenguajes_tlf$ParteB.coverage" NAME="ParteB Coverage Results" MODIFIED="1727285614217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/laboratorio_lenguajes_tlf$Interfaz.coverage" NAME="Interfaz Coverage Results" MODIFIED="1727285520405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/laboratorio_lenguajes_tlf$ParteA.coverage" NAME="ParteA Coverage Results" MODIFIED="1727316566891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/laboratorio_lenguajes_tlf$pruebas_interfaz.coverage" NAME="pruebas_interfaz Coverage Results" MODIFIED="1727303319332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/laboratorio_lenguajes_tlf$ParteB.coverage" NAME="ParteB Coverage Results" MODIFIED="1727316118062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/laboratorio_lenguajes_tlf$Interfaz.coverage" NAME="Interfaz Coverage Results" MODIFIED="1727317152793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

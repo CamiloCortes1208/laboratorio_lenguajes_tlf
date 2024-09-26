@@ -8,17 +8,6 @@ import ParteA as parteA
         SEBASTIÁN JARAMILLO CARDONA
         JUAN CAMILO CORTÉS DÁVILA
         VALENTINA CASTAÑO ZULUAGA
-        
-        
-        X 1. Definir tres lenguajes a partir de ellos.
-        X 2. Aplicar operaciones como unión, concatenación y estrella (a cada uno).
-        FALTA 3. Implementar una o varias funciones para generar palíndromos.
-        X 4. Pedir al usuario que ingrese una cadena y verificar si es un palíndromo.
-        FALTA 5. Implementar una o varias funciones para transformar cadenas de acuerdo con reglas específicas como reemplazo de caracteres e inversión de cadenas.
-        FALTA 6. Crear un menú donde se contengan los puntos anteriores y el usuario seleccione el proceso a realizar, en este ítem pueden utilizar Tkinder u otra librería que facilite la parte gráfica.
-
-        
-        NO USAR INVERTIR NI REEMPLAZAR
 """
 
 
@@ -68,11 +57,12 @@ def concatenar_lenguajes(lista: []):
 
 def generar_estrella(lenguajes: []):
     lista_estrella = []
-    for i in range(5):
+    for i in range(3):
         aux = ParteA.generar_cadenas(lenguajes[0], i)
         lista_estrella.append(aux)
-    return lista_estrella
-
+    lista_plana = [elemento for sublista in lista_estrella for elemento in sublista]
+    lista_plana.append("...")
+    return lista_plana
 
 def operacion_conjuntos(lenguajes: []):
     lista = []
@@ -88,10 +78,7 @@ def operacion_conjuntos(lenguajes: []):
 
     return lista
 
-
 # Implementar una o varias funciones para generar palíndromos
-
-
 def generar_palindromos(alfabeto):
     lista_palindromas = []
     cantidad_palabras_lenguaje_palindromos: int = random.randint(1, 10)
@@ -100,7 +87,7 @@ def generar_palindromos(alfabeto):
         palabra = crear_palindromo(alfabeto, "", longitud_palabra)
         lista_palindromas.append(palabra)
     print(lista_palindromas)
-
+    return lista_palindromas
 
 def crear_palindromo(alfabeto, palabra, longitud):
     """
@@ -115,35 +102,64 @@ def crear_palindromo(alfabeto, palabra, longitud):
         if longitud >= 2:
             palabra = simbolo_aleatorio + crear_palindromo(alfabeto, palabra, longitud - 2) + simbolo_aleatorio
         else:
-                palabra = simbolo_aleatorio + crear_palindromo(alfabeto, palabra, longitud - 1)
+            palabra = simbolo_aleatorio + crear_palindromo(alfabeto, palabra, longitud - 1)
     return palabra
 
-
 def es_palindromo(secuencia, alfabeto):
-    # Convertir la secuencia en una lista de símbolos basada en el alfabeto
-    simbolos = []
+    palabra_convertida_a_lista: [] = separar_cadena_por_alfabeto(secuencia,alfabeto)
+    print(palabra_convertida_a_lista)
+    if len(palabra_convertida_a_lista) == 0: return False
+    for i in range(len(palabra_convertida_a_lista)):
+        if palabra_convertida_a_lista[i] != palabra_convertida_a_lista[len(palabra_convertida_a_lista)-1-i]:
+            return False
+    return True
+def separar_cadena_por_alfabeto(secuencia, alfabeto):
+    resultado = []
     i = 0
+
     while i < len(secuencia):
-        # Recorremos el alfabeto para ver si algún símbolo coincide con la secuencia
-        for simbolo in alfabeto:
-            if secuencia[i:i + len(simbolo)] == simbolo:
-                simbolos.append(simbolo)
-                i += len(simbolo)
+        for patron in alfabeto:
+            # Si el patrón coincide con una parte de la cadena
+            if secuencia[i:i + len(patron)] == patron:
+                resultado.append(patron)
+                i += len(patron)  # Avanzar en la cadena según el patrón encontrado
                 break
         else:
-            # Si no se encuentra ningún símbolo, hay un error en la secuencia
-            raise ValueError(f"Símbolo desconocido en la secuencia: {secuencia[i]}")
+            # Si ningún patrón coincide, avanzamos uno
+            i += 1
 
-    # Verificar si la lista de símbolos es un palíndromo
-    return simbolos == simbolos[::-1]
+    return resultado
+
+# Se definió como regla que todas las letras a, pasan a ser letras o
+def transformar_cadenas_lenguajes(lenguajes: []):
+    lista_lenguajes_modificados = []
+    for lenguaje in lenguajes:
+        lenguaje_modificado = []
+        for palabra in lenguaje:
+            palabra_modificada = reemplazar_letra(palabra, "a", "o")
+            lenguaje_modificado.append(palabra_modificada)
+        lista_lenguajes_modificados.append(lenguaje_modificado)
+    return lista_lenguajes_modificados
+
+def reemplazar_letra(palabra, letra_vieja, letra_nueva):
+    nueva_palabra = ""
+    for i in palabra:  # Iterar sobre cada carácter en la palabra
+        if i == letra_vieja:
+            nueva_palabra += letra_nueva  # Reemplazar si es la letra vieja
+        else:
+            nueva_palabra += i  # Mantener el carácter si no es la letra vieja
+    return nueva_palabra
 
 
 if __name__ == '__main__':
+
     # Se le pide al usuario la cantidad y los elementos del alfabeto
     alfabeto = parteA.crear_alfabeto()
-    generar_palindromos(alfabeto)
+    print(es_palindromo("adjasdkljashjdkas",alfabeto))
 
-    print(es_palindromo("ANNANANA",alfabeto))
+    #print(es_palindromo("ANNANANA", alfabeto))
+
+
     """
     lenguajes: [] = definir_lenguajes(alfabeto)
     print(lenguajes)
